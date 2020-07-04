@@ -4,8 +4,8 @@ String Rotation
 
 
 """
-Time Complexity: O(MN)
-Space Complexity: O(MN)
+Time Complexity: O(1)
+Space Complexity: O(1)
 """
 
 
