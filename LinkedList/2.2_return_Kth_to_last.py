@@ -49,12 +49,13 @@ Space Complexity: O(1)
 def getKthLast(head, K):
     curr = head
     i = 0
-    currentAfterK = None
-    while i < K and curr:
+    currentAfterK = head
+    while i < K:
+        if not curr:
+            return None
         i += 1
         curr = curr.next
-    if i == K:
-        currentAfterK = head
+
     while curr:
         currentAfterK = currentAfterK.next
         curr = curr.next

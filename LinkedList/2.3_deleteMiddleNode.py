@@ -25,6 +25,8 @@ Space Complexity: O(1)
 
 
 def deleteMiddleNode(node):
+    if not node or not node.next:
+        return None
     node.val = node.next.val
     node.next = node.next.next
 
