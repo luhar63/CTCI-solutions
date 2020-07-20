@@ -1,5 +1,5 @@
 """
-Three in One: Implement three stacks using single stack
+Three in One: Implement three stacks using single one dimension array
 """
 
 
