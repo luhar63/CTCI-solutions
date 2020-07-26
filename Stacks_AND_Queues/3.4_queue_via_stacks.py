@@ -1,5 +1,5 @@
 """
-Queue via Stacks: implement a class myQueue for this
+Queue via Stacks: implementing a class myQueue using two stacks
 """
 
 
