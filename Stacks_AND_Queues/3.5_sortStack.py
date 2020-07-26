@@ -2,6 +2,13 @@
 Sort Stack
 """
 
+"""
+Going to store the minimum of 'substack' -(itself and below)
+
+Time Complexity: O(N^2)
+Space Complexity: O(N)
+"""
+
 
 class Stack:
     def __init__(self, capacity):
