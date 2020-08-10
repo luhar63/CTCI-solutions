@@ -82,7 +82,8 @@ def createTree(array):
             else:
                 node.right = TreeNode(array[i])
                 queue.append(node.right)
-                queue.pop(0).val
+        if i % 2 == 0:
+            queue.pop(0).val
         i += 1
     return root
 
